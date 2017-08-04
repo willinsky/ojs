@@ -469,6 +469,19 @@ Please confirm your ability to complete this vital contribution to the work of t
 {$editorialContactSignature}]]></body>
 		<description>This email is automatically sent when a reviewer's due date elapses (see Review Options under Settings &gt; Workflow &gt; Review) and one-click reviewer access is enabled. Scheduled tasks must be enabled and configured (see the site configuration file).</description>
 	</email_text>
+	<email_text key="REVISION_REMIND">
+		<subject>Submission Revision Reminder</subject>
+		<body><![CDATA[{$authorName}:<br />
+<br />
+Just a gentle reminder of our request for your revision of the submission, &quot;{$submissionTitle},&quot; for {$contextName}. We were hoping to have this revision by {$revisionDueDate}, and would be pleased to receive it as soon as you are able to prepare it.<br />
+<br />
+If you do not have your username and password for the journal's web site, you can use this link to reset your password (which will then be emailed to you along with your username). {$passwordResetUrl}<br />
+<br />
+Submission URL: {$submissionUrl}<br />
+<br />
+{$editorialContactSignature}]]></body>
+		<description>This email is sent by a Section Editor to remind an author that their revision is due.</description>
+	</email_text>
 	<email_text key="EDITOR_DECISION_ACCEPT">
 		<subject>Editor Decision</subject>
 		<body><![CDATA[{$authorName}:<br />
