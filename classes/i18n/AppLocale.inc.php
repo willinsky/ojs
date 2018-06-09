@@ -92,7 +92,6 @@ class AppLocale extends PKPLocale {
 					}
 				}
 
-
 				if (!isset($locale)) {
 					// Use journal/site default
 					if ($journal != null) {
