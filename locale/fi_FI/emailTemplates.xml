@@ -812,14 +812,4 @@ Päätöksemme on: Käsikirjoitus on hylätty<br />
 {$editorialContactSignature}<br />]]></body>
 		<description>This email is send to the author if the editor declines his submission initially, before the review stage</description>
 	</email_text>
-	<email_text key="EDITOR_RECOMMENDATION">
-		<subject>Toimittajan suositus</subject>
-		<body><![CDATA[{$editors}:<br />
-<br />
-Julkaisun {$contextName} käsikirjoitusta &quot;{$submissionTitle}&quot; koskeva suositus on: {$recommendation}<br />
-<br />
-Ystävällisin terveisin,<br />
-{$editorialContactSignature}]]></body>
-		<description>This email from the recommending Editor or Section Editor to the decision making Editors or Section Editors notifies them of a final recommendation regarding the submission.</description>
-	</email_text>
 </email_texts>
